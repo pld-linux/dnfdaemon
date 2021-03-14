@@ -1,7 +1,7 @@
 Summary:	DBus daemon for dnf package actions
 Name:		dnfdaemon
 Version:	0.3.20
-Release:	1
+Release:	2
 License:	GPL v2+
 Source0:	https://github.com/manatools/dnfdaemon/releases/download/dnfdaemon-%{version}/%{name}-%{version}.tar.xz
 # Source0-md5:	45f02532eb3d114793aa5076ce6e5e11
@@ -11,7 +11,7 @@ BuildRequires:	systemd-devel
 Requires:	dnf >= 4.3.6
 Requires:	polkit
 Requires:	python3-dbus
-Requires:	python3-gobject
+Requires:	python3-pygobject3
 Requires(post,preun,postun):	systemd-units >= 38
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
