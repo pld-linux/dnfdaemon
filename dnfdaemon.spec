@@ -1,7 +1,7 @@
 Summary:	DBus daemon for dnf package actions
 Name:		dnfdaemon
 Version:	0.3.20
-Release:	4
+Release:	5
 License:	GPL v2+
 Source0:	https://github.com/manatools/dnfdaemon/releases/download/dnfdaemon-%{version}/%{name}-%{version}.tar.xz
 # Source0-md5:	45f02532eb3d114793aa5076ce6e5e11
